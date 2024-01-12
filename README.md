@@ -1,12 +1,14 @@
 # Brain Tumor Detection with InceptionV3
 
+**Note: This repository is currently read-only and not open for modifications. If you have any inquiries or suggestions, feel free to contact the project owner.**
+
 Welcome to the Brain Tumor Detection project using the InceptionV3 convolutional neural network architecture. This repository offers a comprehensive solution for brain tumor detection, encompassing both training and testing scripts. Explore the detailed information below to understand and utilize the full potential of this project.
 
 ## 1. Training Code:
 
 ### 1.1 Overview:
 
-The training script, `train_brain_tumor_model.py`, orchestrates the entire training process. Leveraging the InceptionV3 model with pre-trained ImageNet weights, it customizes the architecture for binary classification, distinguishing between the presence and absence of brain tumors. The script utilizes the Kaggle MRI Brain Tumor dataset, applying advanced data augmentation techniques to enhance the model's generalization capabilities. Upon completion, the final trained model is saved as 'brain_tumor_trained_model.h5'.
+The `train_brain_tumor_model.py` script orchestrates the entire training process. Leveraging the InceptionV3 model with pre-trained ImageNet weights, it customizes the architecture for binary classification, distinguishing between the presence and absence of brain tumors. The script utilizes the Kaggle MRI Brain Tumor dataset, applying advanced data augmentation techniques to enhance the model's generalization capabilities. Upon completion, the final trained model is saved as 'brain_tumor_trained_model.h5'.
 
 ### 1.2 Dependencies:
 
@@ -29,7 +31,7 @@ Ensure you have the following dependencies installed:
 
 ### 2.1 Overview:
 
-The testing script, `test_brain_tumor_model.py`, handles the post-training phase. It loads the pre-trained model and provides a user-friendly graphical interface for testing predictions. The script supports both single image prediction and folder analysis, displaying results interactively. Additionally, it generates a testing accuracy plot to facilitate a comprehensive evaluation of the model's performance.
+The `test_brain_tumor_model.py` script handles the post-training phase. It loads the pre-trained model and provides a user-friendly graphical interface for testing predictions. The script supports both single image prediction and folder analysis, displaying results interactively. Additionally, it generates a testing accuracy plot to facilitate a comprehensive evaluation of the model's performance.
 
 ### 2.2 Dependencies (for Testing):
 
@@ -67,4 +69,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ---
 
-**Note:** Ensure that you replace `https://github.com/yourusername/your-repository.git` with the actual link to your GitHub repository. Customize the content further based on your project's specific details and structure.
+**Note:** This repository is read-only, and modifications are not currently allowed. If you have any inquiries or suggestions, please contact the project owner.
+
+**Note:** Ensure that you replace `https://github.com/AbdelrahmanHassan111/Brain-Tumor-Detection-using-InceptionV3.git` with the actual link to your GitHub repository. Customize the content further based on your project's specific details and structure.
