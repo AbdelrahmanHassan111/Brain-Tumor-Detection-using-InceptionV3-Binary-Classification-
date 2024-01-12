@@ -1,14 +1,16 @@
 # Brain Tumor Detection with InceptionV3
 
-This repository contains a comprehensive implementation for brain tumor detection using the InceptionV3 convolutional neural network architecture. The project consists of both training and testing scripts, providing users with a complete solution for building, training, and evaluating a brain tumor detection model.
+Welcome to the Brain Tumor Detection project using the InceptionV3 convolutional neural network architecture. This repository offers a comprehensive solution for brain tumor detection, encompassing both training and testing scripts. Explore the detailed information below to understand and utilize the full potential of this project.
 
 ## 1. Training Code:
 
 ### 1.1 Overview:
 
-The training script, `train_brain_tumor_model.py`, utilizes the InceptionV3 model with pre-trained ImageNet weights. It customizes the model for binary classification, distinguishing between brain tumor presence and absence. The training is performed on a Kaggle MRI Brain Tumor dataset, incorporating data augmentation techniques for enhanced model generalization. The final trained model is saved to 'brain_tumor_trained_model.h5'.
+The training script, `train_brain_tumor_model.py`, orchestrates the entire training process. Leveraging the InceptionV3 model with pre-trained ImageNet weights, it customizes the architecture for binary classification, distinguishing between the presence and absence of brain tumors. The script utilizes the Kaggle MRI Brain Tumor dataset, applying advanced data augmentation techniques to enhance the model's generalization capabilities. Upon completion, the final trained model is saved as 'brain_tumor_trained_model.h5'.
 
 ### 1.2 Dependencies:
+
+Ensure you have the following dependencies installed:
 
 - `keras`
 - `tensorflow`
@@ -18,18 +20,20 @@ The training script, `train_brain_tumor_model.py`, utilizes the InceptionV3 mode
 
 ### 1.3 Usage:
 
-1. Replace the paths in the script for training data (`train_data_dir`) and validation data (`validation_data_dir`).
-2. Ensure the required dependencies are installed.
-3. Execute the script to train the model.
+1. Modify the script to specify the paths for training data (`train_data_dir`) and validation data (`validation_data_dir`).
+2. Install the required dependencies.
+3. Execute the script to initiate the model training process.
 4. Save and load the trained model weights for future use.
 
 ## 2. Testing Code:
 
 ### 2.1 Overview:
 
-The testing script, `test_brain_tumor_model.py`, loads the pre-trained model and provides a user-friendly graphical interface for testing predictions. It supports both single image prediction and folder analysis, displaying results interactively. A testing accuracy plot is generated, aiding in the evaluation of model performance.
+The testing script, `test_brain_tumor_model.py`, handles the post-training phase. It loads the pre-trained model and provides a user-friendly graphical interface for testing predictions. The script supports both single image prediction and folder analysis, displaying results interactively. Additionally, it generates a testing accuracy plot to facilitate a comprehensive evaluation of the model's performance.
 
 ### 2.2 Dependencies (for Testing):
+
+Ensure you have the following dependencies installed for testing:
 
 - `tensorflow`
 - `numpy`
@@ -39,15 +43,28 @@ The testing script, `test_brain_tumor_model.py`, loads the pre-trained model and
 
 ### 2.3 Dataset:
 
-The brain tumor dataset used for training and testing is sourced from Kaggle's MRI Brain Tumor dataset. Ensure you have the necessary permissions to use and distribute this dataset.
+The brain tumor dataset used for both training and testing is sourced from Kaggle's MRI Brain Tumor dataset. Make sure you have the necessary permissions to use and distribute this dataset.
 
 ### 2.4 Usage:
 
-1. Ensure the dependencies are installed.
+1. Confirm that the testing dependencies are installed.
 2. Load the pre-trained model using 'brain_tumor_trained_model.h5'.
-3. Run the testing script and use the GUI to select either a single image or a folder for evaluation.
+3. Run the testing script and use the graphical user interface to select either a single image or a folder for evaluation.
 
-## 3. Contribution and Support:
+## 3. Additional Information:
 
-Feel free to contribute to the project, customize it for your needs, or report any issues. Open an issue or pull request for questions, improvements, or collaboration.
+### 3.1 GUI Application:
 
+For a more user-friendly and interactive testing experience, the `main_gui.py` script provides a graphical user interface. Users can explore the model's predictions on various images through this intuitive interface.
+
+### 3.2 Contribution and Support:
+
+Feel free to contribute to the project, customize it according to your needs, or report any issues. Open an issue or submit a pull request for questions, improvements, or collaborative efforts.
+
+### 3.3 License:
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code in accordance with the terms of the license.
+
+---
+
+**Note:** Ensure that you replace `https://github.com/yourusername/your-repository.git` with the actual link to your GitHub repository. Customize the content further based on your project's specific details and structure.
