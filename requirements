@@ -1,0 +1,13 @@
+# requirements.txt
+
+# Dependencies for training code
+keras==2.6.0
+tensorflow==2.6.0
+numpy==1.19.5
+Pillow==8.2.0
+tk==0.1.0
+
+# Dependencies for testing code
+matplotlib==3.4.3
+
+# Other dependencies
