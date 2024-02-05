@@ -17,13 +17,22 @@ The training script, `train_brain_tumor_model.py`, utilizes the InceptionV3 mode
 - `numpy`
 - `PIL`
 - `tkinter`
-
+  
 ### 1.3 Usage:
 
 1. Replace the paths in the script for training data (`train_data_dir`) and validation data (`validation_data_dir`).
 2. Ensure the required dependencies are installed.
 3. Execute the script to train the model.
 4. Save and load the trained model weights for future use.
+   
+### 1.4 Results of training:
+
+![output](https://github.com/AbdelrahmanHassan111/Brain-Tumor-Detection-using-InceptionV3/assets/156480367/3ecd9166-591d-4b8a-8828-2790a6675a05)
+
+### 1.5 Training Accuracy:
+
+![image](https://github.com/AbdelrahmanHassan111/Brain-Tumor-Detection-using-InceptionV3/assets/156480367/593ce619-2063-481f-8daa-e1def664f9ff)
+
 
 ## 2. Testing Code:
 
