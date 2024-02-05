@@ -84,3 +84,4 @@ source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 
 # Install dependencies
 pip install -r requirements.txt
+![output](https://github.com/AbdelrahmanHassan111/Brain-Tumor-Detection-using-InceptionV3/assets/156480367/4c62b497-ac4a-404c-8689-bddd0dce1ed4)
