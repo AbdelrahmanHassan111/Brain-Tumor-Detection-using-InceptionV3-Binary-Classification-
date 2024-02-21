@@ -1,4 +1,4 @@
-# Brain Tumor Detection with InceptionV3
+# Brain Tumor Detection with InceptionV3 (Binary Classification)
 
 **Note: This repository is currently read-only and not open for modifications. If you have any inquiries or suggestions, feel free to contact the project owner.**
 
